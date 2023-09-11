@@ -1,0 +1,26 @@
+<body>
+    <script>
+       var a = [
+    ["Ali", 58],
+    ["Sami", 73],
+    ["Taha", 89],
+    ["Inam", 90]
+];
+document.write("<table border='1px' cellspacing='1'>");
+    document.write("<th>");
+                document.write("students");
+                document.write("</th>");
+                 document.write("<th>");
+                     document.write("scores");
+                      document.write("</th>");
+for (var i = 0; i < a.length; i++) {
+    document.write("<tr>");
+   
+    document.write("<td>" + a[i][0] + "</td>");
+  
+    document.write("<td>" + a[i][1] + "</td>");
+    document.write("</tr>");
+}
+document.write("</table>");
+    </script>
+</body>
